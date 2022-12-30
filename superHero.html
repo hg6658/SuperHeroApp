@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>SuperHero Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./currentSuperHero.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  rel="stylesheet" />
+    </head>
+    <body>
+        <div id="backtoMain">
+            <button id="back">Back</button>
+        </div>
+        <div id="modelName"></div>
+        <div id="main">
+            <div id="modelPicture">
+            </div>
+            <div id="description">
+                <p></p>
+            </div>
+            <div id="stats">
+                <div id="navBar">
+                    <div id="comics" class="outerButton">
+                        <button class="innerButton">Comics</button>
+                    </div>
+                    <div id="events" class="outerButton">
+                        <button class="innerButton">Events</button>
+                    </div>
+                    <div id="series" class="outerButton">
+                        <button class="innerButton">Series</button>
+                    </div>
+                    <div id="stories" class="outerButton">
+                        <button class="innerButton">Stories</button>
+                    </div>
+                </div>
+                <div id="content">
+                    <div class="list-group">
+                      </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+        <script src="./switchTabs.js"></script>
+        <script src="./currentSuperHero.js"></script>
+    </body>
+</html>
